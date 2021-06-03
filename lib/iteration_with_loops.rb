@@ -4,7 +4,7 @@ def find_min_in_nested_arrays(src)
   # Produce a new Array that contains the smallest number of each of the nested arrays
   [17, 18, 22, 26, 31, 35, 38, 40, 43, 45, 49, 52, 55, 61, 60, 59, 55, 49, 45, 38, 32, 30, 24, 19]
   i = 0
-  min = 0
+  min = NIL
   small_array = []
   while i < src.length do
     j = 0
