@@ -15,7 +15,7 @@ def find_min_in_nested_arrays(src)
         min = src[i][j]
       end
       j += 1
-      binding.pry
+
     end
     small_array << min
     i += 1
